@@ -56,7 +56,7 @@ public class FrontDesk {
                     System.out.println("Thanks For Coming. Please, Come Back Later.");
                     break;
                 default:
-                    System.out.println("Wrong Choice.\nPlease Choose Between 1 - 4.");
+                    System.out.println("Wrong Choice.\nPlease Choose Between 1 - 4 Only.");
             }
         } while (endUserInput != EXIT);
         scannerObject.close();
